@@ -1,0 +1,1 @@
+docker run -ti --rm -v /Users/nikita/Life/Work/www/templates/vue-template:/app -p 8080:8080 vue-template /bin/sh

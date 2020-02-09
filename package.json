@@ -5,23 +5,38 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "gulp": "gulp dev"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "animate.css": "^3.7.2",
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "normalize.css": "^8.0.1",
+    "reset.css": "^2.0.2",
     "vue": "^2.6.11",
+    "vue-meta": "^2.3.2",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "babel-eslint": "^10.0.3",
+    "cwebp-bin": "^5.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "style-resources-loader": "^1.3.3",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "yargs": "^15.1.0"
   }
 }

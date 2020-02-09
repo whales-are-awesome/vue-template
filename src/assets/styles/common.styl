@@ -1,0 +1,22 @@
+@import 'vendor/*'
+@import 'helpers/*'
+@import 'models/*'
+@import 'accessory/*'
+
+body, html
+	font-family var(--font-primary), Helvetica, Arial, sans-serif
+	font-size var(--text-size)
+	font-weight var(--text-primary-weight)
+	color var(--text-color)
+
+#app
+	min-height 100vh
+
+	display flex
+	flex-direction column
+
+	position relative
+	z-index 1
+
+	overflow hidden
+	background-color var(--color-body-bg)
